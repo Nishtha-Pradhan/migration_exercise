@@ -1,0 +1,9 @@
+name: Migration Exercise
+type: module
+description: Migration tests
+core_version_requirement: 8.x | 9.x
+package: Migration
+dependencies:
+  - drupal:migrate
+  - drupal:migrate_plus
+  - drupal:migrate_tools

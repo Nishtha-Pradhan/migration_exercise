@@ -1,0 +1,28 @@
+uuid: 2109471b-a74d-49d9-a93f-35402aede459
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cities.field_city_id
+    - field.field.node.cities.field_location
+    - field.field.node.cities.field_pop
+    - field.field.node.cities.field_state
+    - node.type.cities
+  module:
+    - user
+id: node.cities.teaser
+targetEntityType: node
+bundle: cities
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_city_id: true
+  field_location: true
+  field_pop: true
+  field_state: true

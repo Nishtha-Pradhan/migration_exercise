@@ -1,0 +1,61 @@
+id: cities
+label: JSON feed of cities
+migration_group: cities
+
+source:
+  plugin: url
+  data_fetcher_plugin: http
+  data_parser_plugin: json
+  urls: http://migration.lndo.site/sites/default/files/migration_exercise/cities.json
+  item_selector: cities
+  fields:
+    -
+      name: id
+      label: 'City ID'
+      selector: _id
+    -
+      name: city
+      label: 'City Name'
+      selector: city
+    -
+      name: location
+      label: 'City Location'
+      selector: loc
+    -
+      name: pop
+      label: 'Pop'
+      selector: pop
+    -
+      name: state
+      label: 'State'
+      selector: state
+  ids:
+    id:
+      type: integer
+
+destination:
+  plugin: entity:node
+
+process:
+  type:
+    plugin: default_value
+    default_value: cities
+
+  title: city
+  field_city_id: id
+  field_location: location
+  field_pop: pop
+  field_state: state
+
+  sticky:
+    plugin: default_value
+    default_value: 0
+  uid:
+    plugin: default_value
+    default_value: 0
+
+migration_dependencies: {}
+dependencies:
+  enforced:
+    module:
+      - migration_exercise

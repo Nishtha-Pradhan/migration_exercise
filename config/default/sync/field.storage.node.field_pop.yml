@@ -1,0 +1,20 @@
+uuid: 735af520-ef3e-4e44-9afa-77f9d3abd49a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_pop
+field_name: field_pop
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

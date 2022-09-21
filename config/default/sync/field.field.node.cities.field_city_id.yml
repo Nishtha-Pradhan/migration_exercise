@@ -1,0 +1,23 @@
+uuid: 8a01a164-1cd3-4acc-9d93-dd0dbabf4292
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_city_id
+    - node.type.cities
+id: node.cities.field_city_id
+field_name: field_city_id
+entity_type: node
+bundle: cities
+label: 'City ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

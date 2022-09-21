@@ -1,0 +1,16 @@
+name: migration
+recipe: drupal9
+config:
+  php: '8.0'
+  database: mysql:5.7
+  webroot: web
+  drush: true
+  xdebug: false
+proxy:
+  appserver:
+    - migration.lndo.site
+services:
+  phpmyadmin:
+    type: phpmyadmin
+    hosts:
+      - database

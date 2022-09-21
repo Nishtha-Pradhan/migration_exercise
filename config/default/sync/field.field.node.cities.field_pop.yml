@@ -1,0 +1,23 @@
+uuid: 9ff85d45-6cdb-40dd-b2e1-715eb320529e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pop
+    - node.type.cities
+id: node.cities.field_pop
+field_name: field_pop
+entity_type: node
+bundle: cities
+label: Pop
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

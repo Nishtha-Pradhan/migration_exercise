@@ -1,0 +1,57 @@
+uuid: 75f91701-26a8-4147-8f91-d76ee10a668d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cities.field_city_id
+    - field.field.node.cities.field_location
+    - field.field.node.cities.field_pop
+    - field.field.node.cities.field_state
+    - node.type.cities
+  module:
+    - user
+id: node.cities.default
+targetEntityType: node
+bundle: cities
+mode: default
+content:
+  field_city_id:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_location:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_pop:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_state:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
