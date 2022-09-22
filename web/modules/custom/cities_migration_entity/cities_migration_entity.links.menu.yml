@@ -1,0 +1,5 @@
+entity.cities_migration_entity_type.collection:
+  title: 'Cities migration entity types'
+  description: 'Manage and CRUD actions on Cities migration entity type.'
+  parent: system.admin_structure
+  route_name: entity.cities_migration_entity_type.collection

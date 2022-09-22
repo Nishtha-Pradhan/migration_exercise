@@ -1,0 +1,11 @@
+cities_migration_entity.type_add:
+  title: 'Add cities migration entity type'
+  route_name: entity.cities_migration_entity_type.add_form
+  appears_on:
+    - entity.cities_migration_entity_type.collection
+
+cities_migration_entity.add_page:
+  title: 'Add cities migration entity'
+  route_name: entity.cities_migration_entity.add_page
+  appears_on:
+    - entity.cities_migration_entity.collection

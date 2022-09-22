@@ -1,0 +1,10 @@
+entity.cities_migration_entity.edit_form:
+  route_name: entity.cities_migration_entity.edit_form
+  group: cities_migration_entity
+  title: Edit
+
+entity.cities_migration_entity.delete_form:
+  route_name: entity.cities_migration_entity.delete_form
+  group: cities_migration_entity
+  title: Delete
+  weight: 10

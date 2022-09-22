@@ -1,0 +1,12 @@
+administer cities migration entity types:
+  title: 'Administer cities migration entity types'
+  description: 'Maintain the types of cities migration entity entity.'
+  restrict access: true
+delete cities migration entity:
+  title: Delete cities migration entity
+create cities migration entity:
+  title: Create cities migration entity
+view cities migration entity:
+  title: View cities migration entity
+edit cities migration entity:
+  title: Edit cities migration entity

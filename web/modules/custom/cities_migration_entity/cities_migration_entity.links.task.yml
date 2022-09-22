@@ -1,0 +1,26 @@
+entity.cities_migration_entity.view:
+  title: 'View'
+  route_name: entity.cities_migration_entity.canonical
+  base_route: entity.cities_migration_entity.canonical
+entity.cities_migration_entity.edit_form:
+  title: 'Edit'
+  route_name: entity.cities_migration_entity.edit_form
+  base_route: entity.cities_migration_entity.canonical
+entity.cities_migration_entity.delete_form:
+  title: 'Delete'
+  route_name: entity.cities_migration_entity.delete_form
+  base_route: entity.cities_migration_entity.canonical
+  weight: 10
+entity.cities_migration_entity.collection:
+  title: 'Cities migration entities'
+  route_name: entity.cities_migration_entity.collection
+  base_route: system.admin_content
+  weight: 10
+entity.cities_migration_entity_type.edit_form:
+  title: 'Edit'
+  route_name: entity.cities_migration_entity_type.edit_form
+  base_route: entity.cities_migration_entity_type.edit_form
+entity.cities_migration_entity_type.collection:
+  title: 'List'
+  route_name: entity.cities_migration_entity_type.collection
+  base_route: entity.cities_migration_entity_type.collection

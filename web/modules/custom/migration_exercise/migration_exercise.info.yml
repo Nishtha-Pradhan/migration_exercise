@@ -1,7 +1,7 @@
 name: Migration Exercise
 type: module
 description: Migration tests
-core_version_requirement: 8.x | 9.x
+core_version_requirement: ^9 || ^10
 package: Migration
 dependencies:
   - drupal:migrate

@@ -1,0 +1,24 @@
+cities_migration_entity.cities_migration_entity_type.*:
+  type: config_entity
+  label: 'Cities migration entity type config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    title:
+      type: label
+      label: 'City'
+    city_id:
+      type: integer
+      label: 'City ID'
+    loc:
+      type: string
+      label: 'City Location'
+    pop:
+      type: integer
+      label: 'City Population'
+    state:
+      type: string
+      label: 'State of City'
+    uuid:
+      type: string

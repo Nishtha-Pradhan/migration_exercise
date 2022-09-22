@@ -1,0 +1,7 @@
+name: 'Cities Migration Entity'
+type: module
+description: 'Cities Custom Content entity.'
+core_version_requirement: ^9 || ^10
+package: 'Custom'
+dependencies:
+  - drupal:options
