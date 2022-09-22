@@ -87,6 +87,13 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/consolidation/site-process" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/filesystem" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/web/core" />
+      <excludeFolder url="file://$MODULE_DIR$/web/core/assets/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/web/core/modules/migrate_drupal_ui/tests/src/Functional/d6/files/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/web/core/themes/stable/css/core/assets/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/web/core/themes/stable9/css/core/assets/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/web/modules/contrib" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
